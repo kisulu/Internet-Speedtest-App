@@ -1,8 +1,5 @@
 from tkinter import *
-try:
-    import speedtest
-except:
-    print("import speedtest Not Available")
+import speedtest
 
 root = Tk()
 root.title("Internet Speed Test")
